@@ -21,3 +21,21 @@ div > :any-link{
     text-decoration: none;
     color: white;
 }
+
+.link{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.user a{
+    margin-right: 10px;
+}
+
+a + h4{
+    color: white;
+}
