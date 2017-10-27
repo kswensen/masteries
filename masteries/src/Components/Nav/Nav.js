@@ -29,6 +29,11 @@ class Nav extends Component {
                     </Link>
                 </div>
                 <div>
+                    <Link to='/parent'>
+                        <h1>Parent/Children</h1>
+                    </Link>
+                </div>
+                <div>
                     {
                         this.props.user
                         ?

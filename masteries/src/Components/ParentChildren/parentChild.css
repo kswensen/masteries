@@ -1,0 +1,31 @@
+.child{
+    margin-top: 20px;
+    border: 2px solid red;
+    width: 250px;
+}
+
+.background{
+    background-image: url('../../images/523584249.jpg');
+    background-size: cover;
+    height: 200vh;
+}
+
+.positionFixed {
+    position: fixed;
+    left: 40%;
+    color: white;
+}
+
+.positionAbsoluteContainer{
+    position: relative;
+}
+
+.positionAbsoluteContainer input{
+    position: absolute;
+}
+
+.positionAbsolute{
+    color: white;
+    position: absolute;
+    left: 30%;
+}

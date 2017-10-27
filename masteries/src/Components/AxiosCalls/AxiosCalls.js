@@ -89,7 +89,7 @@ class AxiosCalls extends Component {
 
         return (
             <div>
-                <div>
+                <div className='enterChores'>
                     <input type="text" value={this.state.newChore} onChange={(e) => { this.setState({ newChore: e.target.value }) }} />
                     <button onClick={() => this.addChore()}>Add Chore</button>
                     <button onClick={() => this.setState({ edit: true })}>Edit Chores</button>
