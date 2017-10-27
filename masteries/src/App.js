@@ -16,3 +16,9 @@ class App extends Component {
 }
 
 export default App;
+
+
+// Web semantics refers to adding meaning to your naming conventions. For example, naming a variable something that pertains to what it does.
+// The Goal is to get everyone to use Web Semantics in their code so anyone can read the code and understand what each variable does. 
+// The purpose is so that someone can look at another person's code and be able to tell what a variable is based on its name.
+// Best practices would be: var firstName = 'Kegan'; var sum = 20; etc.

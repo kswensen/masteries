@@ -71,7 +71,7 @@ class AxiosCalls extends Component {
     render() {
         let mappedChores = this.state.chores.map((chore, i) => {
             return (
-                <div key={i}>
+                <ul key={i}>
                     {
                         this.state.edit
                             ?
@@ -80,10 +80,10 @@ class AxiosCalls extends Component {
                                 <button onClick={() => {this.updateChore(chore.chore_id)}}>Done</button>
                             </div>
                             :
-                            <h1>{chore.chore}</h1>
+                            <p>{chore.chore}</p>
                     }
                     <button onClick={() => this.delete(chore.chore_id)}>Delete</button>
-                </div>
+                </ul>
             )
         });
 

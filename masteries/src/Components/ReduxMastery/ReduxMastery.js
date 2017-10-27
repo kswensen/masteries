@@ -25,10 +25,10 @@ class ReduxMastery extends Component {
                     <input type="text" value={this.state.input} onChange={(e) => {this.setState({input: e.target.value})}}/>
                     <button onClick={() => {this.submit()}}>Submit</button>
                 </div>
-                <div>
+                <section>
                     <h1>State: {this.state.input}</h1>
                     <h1>Redux: {this.props.submittedText}</h1>
-                </div>
+                </section>
             </div>
         )
     }
