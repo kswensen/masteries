@@ -34,6 +34,11 @@ class Nav extends Component {
                     </Link>
                 </div>
                 <div>
+                    <Link to={`/numbers/${Math.random()}`} >
+                        <h1>Numbers</h1>
+                    </Link>
+                </div>
+                <div>
                     {
                         this.props.user
                         ?

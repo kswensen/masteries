@@ -4,6 +4,7 @@ import App from './App';
 import ReduxMastery from './Components/ReduxMastery/ReduxMastery';
 import AxiosCalls from './Components/AxiosCalls/AxiosCalls';
 import Parent from './Components/ParentChildren/Parent';
+import Numbers from './Components/Numbers/Numbers';
 
 export default (
     <Switch>
@@ -11,5 +12,6 @@ export default (
         <Route path='/redux' component={ReduxMastery} />
         <Route path='/axios' component={AxiosCalls} />
         <Route path='/parent' component={Parent} />
+        <Route path='/numbers/:number' component={Numbers} />
     </Switch>
 )
